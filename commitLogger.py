@@ -4,7 +4,7 @@ import pymysql
 
 # Open database connection
 
-db = pymysql.connect(host="localhost",user="root",password="Silame83@gmail.com",db="bidalgo")
+db = pymysql.connect(host="localhost",user="ubuntu",password="Silame83@gmail.com",db="bidalgo")
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
